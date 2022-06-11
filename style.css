@@ -10,6 +10,7 @@ body {
     top:0px;
     background-color: black;
     display:block;
+    box-shadow:0px 3px 6px rgba(255, 184, 28,0.35);
 }
 
 .nav-logo a{
@@ -19,36 +20,65 @@ body {
     top:50px;
 }
 
-.nav-left a{
-    float:left;
-    left:100px;
-    background-color: black;
-    color:#ffb81c;
-    font-size: 25px;
-    display:block;
-    text-align:center;
-    padding:14px 16px;
-    font-family:Josefin Sans;
-
-
-}
 
 .nav-left a:hover, .nav-right a:hover {
-    background-color: #ffb81c;
+    background-color: rgb(255, 184, 28);
     color:black;
 
 }
 
-.nav-right a{
-    float:right;
-    color:#ffb81c;
-    font-size: 25px;
-    display:block;
-    text-align:center;
-    padding:14px 16px;
-    font-family:Josefin Sans;
+@media screen and (min-width: 320px) {
+    
+    .nav-left a{
+        float:left;
+        left:100px;
+        background-color:rgba(0,0,0);
+        color:#ffb81c;
+        font-size: calc(14px + 6 * ((100vw - 320px) / 680));
+        display:block;
+        text-align:center;
+        padding:1px 3px;
+        font-family:Josefin Sans;
+    }
+    .nav-right a{
+        float:right;
+        color:#ffb81c;
+        font-size: calc(14px + 6 * ((100vw - 320px) / 680));
+        display:block;
+        text-align:center;
+        padding:1px 3px;
+        font-family:Josefin Sans;
+
+    }
 
 }
+
+@media screen and (min-width: 1000px) {
+    
+    .nav-left a{
+        float:left;
+        left:100px;
+        background-color:rgba(0,0,0);
+        color:#ffb81c;
+        font-size: 25px;
+        display:block;
+        text-align:center;
+        padding:14px 16px;
+        font-family:Josefin Sans;
+    }
+    .nav-right a{
+        float:right;
+        color:#ffb81c;
+        font-size: 25px;
+        display:block;
+        text-align:center;
+        padding:14px 16px;
+        font-family:Josefin Sans;
+
+    }
+
+}
+
 
 .body-text {
     top:250px;
