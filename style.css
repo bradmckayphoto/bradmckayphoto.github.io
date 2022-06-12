@@ -1,5 +1,10 @@
 body {
     background-color: rgb(95, 95, 95);
+    font-family: Josefin Sans, sans-serif;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+
 }
 
 .navbar {
@@ -18,6 +23,7 @@ body {
     color:black;
 
 }
+
 
 @media screen and (min-width: 320px) {
     
@@ -43,15 +49,6 @@ body {
 
     }
 
-    .body-text {
-        color:black;
-        font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-        text-align:center;
-        font-family:Josefin Sans, sans-serif;
-        top:150px;
-        position:relative;
-
-    }
     .nav-logo img{
         float:left;
         position:fixed;
@@ -64,7 +61,30 @@ body {
         top:50px;
     }
 
+    .port-wrapper{
+        position:relative;
+        top:175px;
+        width:100%;
+        display: inline-block;
+        text-align: center;
+
+    }
+    .port-wrapper img{
+        vertical-align: middle;
+        max-width: 320px;
+        max-height:auto;
+    }
+
+    #port-cap{
+        font-size: calc(14px + 6 * ((100vw - 320px) / 680));
+
+    }
+    #port-title{
+        font-size:25px;
+    }
+
 }
+
 
 @media screen and (min-width: 1000px) {
     
@@ -89,15 +109,7 @@ body {
         font-family:Josefin Sans, sans-serif;
 
     }
-   .body-text {
-        color:black;
-        font-size: 30px;
-        text-align:center;
-        font-family:Josefin Sans, sans-serif;
-        top:75px;
-        position:relative;
-        
-    }
+
     .nav-logo img{
         float:left;
         position:fixed;
@@ -108,19 +120,28 @@ body {
    
         left:0px;
         top:50px;
-}
-    #port{
-        display:flex;
-        justify-content: center;
-        
-               
     }
-    #port-img{
-        position:fixed;
-        width:600px;
-        height:400px;
-        max-width: 100%;
+
+    .port-wrapper{
+        position:relative;
+        top:80px;
+        width:100%;
+        height:500px;
+        display: inline-block;
+        text-align: center;
+
+    }
+    .port-wrapper img{
+        vertical-align: middle;
+        align-content: center;
+        max-width: 600px;
         max-height:auto;
-        top:150px;
-        
+    }
+    #port-cap{
+        font-size:25px;
+    }
+    #port-title{
+        font-size:45px;
+    }
 }
+
