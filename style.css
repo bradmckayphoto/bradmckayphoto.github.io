@@ -69,7 +69,24 @@ body {
         text-align: center;
 
     }
-    .port-wrapper img{
+    .img-wrap{
+        position:relative;
+        display:block;
+
+    }
+    #chev{
+                
+        height:20px;
+        width:auto;
+
+    }
+    #chev-right{
+                
+        height:20px;
+        width:auto;
+
+    }
+    #port-img{
         vertical-align: middle;
         max-width: 320px;
         max-height:auto;
@@ -131,7 +148,28 @@ body {
         text-align: center;
 
     }
-    .port-wrapper img{
+    .img-wrap{
+        position:relative;
+        display:block;
+
+    }
+    #chev{
+                
+        height:40px;
+        width:auto;
+
+    }
+    #chev-right{
+                
+        height:40px;
+        width:auto;
+        
+    }
+
+   
+
+
+    #port-img{
         vertical-align: middle;
         align-content: center;
         max-width: 600px;
