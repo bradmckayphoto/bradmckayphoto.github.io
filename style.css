@@ -157,12 +157,14 @@ body {
                 
         height:40px;
         width:auto;
+        padding-right:40px;
 
     }
     #chev-right{
                 
         height:40px;
         width:auto;
+        padding-left:40px;
         
     }
 
